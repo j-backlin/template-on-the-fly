@@ -1,0 +1,106 @@
+.jbi-template-tabs {
+	position: relative;   
+	min-height: 100%;
+	clear: both;
+	margin: 25px 0;
+}
+.jbi-template-tab {
+	float: left;
+}
+.jbi-template-tab label{
+	background: #eee; 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	margin-left: -1px; 
+	position: relative;
+	left: 1px; 
+}
+.jbi-template-tab-btn, .jbi-template-tab label, .jbi-template-tab a, .jbi-template-tab-btn label {
+	max-width:30px;
+	white-space: nowrap;
+	color:#595959;
+	text-decoration: none;
+ 	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	text-transform: uppercase; 
+}
+.jbi-template-tab-active {
+	float: left;
+}
+.jbi-template-tab-active label{
+	background: white;
+	border-bottom: 1px solid white;
+	z-index: 1;
+	font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	font-size: 1em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase; 
+}
+.jbi-template-tab-content {
+	position: absolute;
+	overflow: hidden;
+	top: 28px;
+	left: 0;
+	background: white;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	border: 1px solid #ccc; 
+}
+.jbi-template-tab-feedback {
+	display:none;
+	position: fixed;
+    font-size: 1.5em;
+	letter-spacing: .2em;
+	background: white;
+	z-index:2;
+	border: 1px solid #ccc; 
+	color:#595959;
+ 	font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+	text-transform: uppercase; 
+}
+.jbi-template-tab-preview-img {
+	width: auto;
+	height: 50%;
+}
+.jbi-template-tab-header{
+	font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 1.75em;
+	letter-spacing: .2em;
+	color:#003d4d;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.jbi-template-tab-text{
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 0.75em;
+	color:#003d4d;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: left;
+}
+.jbi-template-tab-list ol {
+	padding:5%; 
+	font-style:italic; 
+	font-family:Georgia, Times, serif; 
+	font-size:24px; 
+	color:#bfe1f1;
+}
+.jbi-template-tab-list ol li p {
+	padding:8px; 
+	font-style:normal; 
+	font-family:Arial; 
+	font-size:13px; 
+	color:#003d4d; 
+	border-left: 1px solid #999;
+}
+.jbi-template-tab-list ol li p em { 
+	display:block;
+}
