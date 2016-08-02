@@ -1,5 +1,5 @@
 /**
- * @owner Johan Bäcklin (jbi)
+ * @owner Johan BÃ¤cklin (jbi)
  */ 
 define(["qlik"], function(qlik) {
 	var definition = {
@@ -16,6 +16,7 @@ define(["qlik"], function(qlik) {
 							return apps;							
 						})	
 						function getApps(){return new Promise(function(resolve, reject) {
+							qlik.setOnError( function ( error ) {} );
 							qlik.getAppList(function(jbiList){
 								var apps = [{
 									value: "",
