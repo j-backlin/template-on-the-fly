@@ -12,8 +12,8 @@ define(["qlik"], function(qlik) {
 					type: "string",
 					component: "dropdown",
 					options: function() {
-						return getApps().then((apps) => {
-							return apps;							
+						return getApps().then(function(apps){
+							return apps;						
 						})	
 						function getApps(){return new Promise(function(resolve, reject) {
 							qlik.setOnError( function ( error ) {} );
